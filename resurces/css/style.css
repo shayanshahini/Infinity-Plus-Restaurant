@@ -1,0 +1,159 @@
+/*----------------------------------------------------------------*/
+/* ----- BASIC ----- */
+/*----------------------------------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-family:'Hind', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-rendering: optimizeLegibility;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/*----------------------------------------------------------------*/
+/* ----- REUSEABLE ----- */
+/*----------------------------------------------------------------*/
+
+/* ---- HEADING ---- */
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 72px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+/* ---- LINKS ---- */
+
+a {
+    text-decoration: none;
+}
+
+/* ---- BUTTONS ---- */
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 12px 40px;
+    border-radius: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    color: #fff;
+    background-color: #fa372c;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: red;
+}
+
+/*----------------------------------------------------------------*/
+/* ----- HEADER ----- */
+/*----------------------------------------------------------------*/
+
+header {
+    color: #fff;
+    background-image: url(../../imgs/slider-1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.header-main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 1140px;
+}
+
+.header-main span {
+    display: block;
+    margin-bottom: 30px;
+    color: #c41511;
+    font-weight: 400;
+}
+
+.header-main p {
+    margin-bottom: 30px;
+    line-height: 26px;;
+}
+
+/* ---- NAV ---- */
+
+.logo-nav {
+    float: left;
+    margin-top: 35px;
+}
+
+.icon-nav {
+    float: right;
+    margin-top: 42px;
+}
+
+.icon-nav li {
+    display: inline-block;
+    margin-left: 7px;
+}
+
+.icon-nav li a:link,
+.icon-nav li a:visited {
+    color: #fff;
+    font-size: 90%;
+    transition: color .2s;
+}
+
+.icon-nav li a:hover,
+.icon-nav li a:active {
+    color: red;
+}
+
+.main-nav {
+    float: right;
+    margin-top: 40px;
+    margin-right: 100px;
+    list-style: none;
+    font-family: 'Popinns';
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 85%;
+    border-bottom: 3px solid transparent;
+    padding-bottom: 3px;
+    transition: border-bottom .2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 3px red solid;
+}
+
+
+
